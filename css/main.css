@@ -90,6 +90,20 @@ body
   align-items: center;
   display: flex;
   justify-content: center;
+  column-gap: 10px;
+}
+
+.social {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+}
+
+.footer-image
+{
+  width: 40px;
+  display:inline-block;
 }
 
 .description {	
@@ -108,18 +122,23 @@ body
 .description h1 {
 	color: #EC1164;
   font-family: Calibri, sans-serif;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .description h2 {
 	color: #6387DC;
   font-family: Calibri, sans-serif;  
-  font-size: 2rem;
+  font-size: 1.5rem;
+}
+
+.footer-copyright
+{
+  color: #6387DC;
 }
 
 .description p {
 	color: #fff;
-	font-size: 1.3rem;
+	font-size: 1rem;
 	line-height: 1.5;
 }
 
@@ -129,4 +148,18 @@ body
   border: 3px solid #39339D;
   padding: 10px;
     line-height: 1.9;
+}
+
+.page-footer
+{
+  padding-top: 30px;
+}
+
+#button-group {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 10px;
 }
